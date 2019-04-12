@@ -1,0 +1,6 @@
+/*  sqrt(x)计算x的平方根，x应该大于或等于0
+fabs（x）计算x的绝对值
+log(x)计算lnx的值，x应该大于0
+log10（x）的值，x应该大于0
+exp(x)计算ex的值
+pow(x,y)计算X的y次方的值  */
