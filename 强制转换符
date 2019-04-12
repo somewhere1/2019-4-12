@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+   int m = 5;
+   printf("m/2 = %d",m/2);
+   printf("(float)(m/2) = %f\n",(float)(m/2));
+   printf("(float)m/2 = %f\n",(float)m/2);
+   printf("m = %d\n",m);
+}
+运行结果：
+m/2 = 2
+(float)(m/2) = 2.000000
+(float)m/2 = 2.500000
+m = 5
+/*  (float)(m/2)使将m/2的结果强转化为实数型，即将2转化为2.000000.
+（float）m/2是先将m的值转化成实数型，再将这个数据与2进行浮点数除法，所以输出2.500000
